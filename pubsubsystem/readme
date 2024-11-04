@@ -1,0 +1,20 @@
+requirement 
+
+- publish message
+- subscribers to that topic will receive that message
+
+
+classes
+
+  publisher
+    - message
+
+  Topic
+    - name
+    - subscribers
+
+  subscriber
+
+  message
+   - content 
+   - time

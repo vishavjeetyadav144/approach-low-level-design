@@ -1,0 +1,20 @@
+classes
+
+atm_machine
+ - cash_available 
+ - location 
+ - bank 
+
+account 
+  - id 
+  - balance
+  - transactions
+
+transactions
+  - id
+  - account_id
+  - amount
+  - type - debit/credit
+  - status 
+
+  
